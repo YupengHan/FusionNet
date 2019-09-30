@@ -1,0 +1,37 @@
+1 不用估计的depth,用sota的depth
+
+
+
+Need to start visdom first:
+first 
+ssh -p 24000 -L:8097:localhost:8097 yupeng@202.120.38.51
+then python -m visdom.server
+
+
+
+
+
+
+
+
+(Example: https://pytorch.org/docs/stable/autograd.html#torch.autograd.Function)
+/disk1/home/yupeng/.conda/envs/scn/lib/python3.6/site-packages/torch/nn/modules/loss.py:88: UserWarning: Using a target size (torch.Size([6])) that is different to the input size (torch.Size([128, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+
+Evaluate !!!!!!
+
+
+shape of 2D images(375, 1242, 3)
+
+Feature extractor change to ResNet
+
+Need to repalce the evaluation into a new one
+!!!!
+    without evaluate, cannot compile
+!!!!
+
+utils.eval_tool FunctionName eval_detection_voc
+    1)  Then modified train.py parameter eval_result
+        eval_result['map'] used to compared model result
+
+
+
