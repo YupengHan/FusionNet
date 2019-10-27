@@ -1,10 +1,10 @@
 # FusionNet
 (Ongoing) Aiming to solve 3D multi-scale object detection problems, by generating dynamic anchors corresponding to 2D classification.
 ## Pipeline
-Input 2D images, using 2D feature extractor generating multi-scale object bounding box, estimated depth, estimated rotation, object classification.\n
-Input 3D PointCloud. Using SparseConvNet to generate 3D features. \n
-Crop 3D features, within the estimated area based on the guidance of 2D result, augmenting 3D features with correspondence 2D features.\n
-Refine the 3D BBox with 3D features.\n
+<brInput 2D images, using 2D feature extractor generating multi-scale object bounding box, estimated depth, estimated rotation, object classification.\>
+<brInput 3D PointCloud. Using SparseConvNet to generate 3D features.\>
+<brCrop 3D features, within the estimated area based on the guidance of 2D result, augmenting 3D features with correspondence 2D features.\>
+<brRefine the 3D BBox with 3D features.\>
 
 a framework solve 2D and 3D features fusion challenges
 ## Some helpful sources
