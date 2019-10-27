@@ -5,7 +5,9 @@
 <br>Input 2D images, using 2D feature extractor generating multi-scale object bounding box, estimated depth, estimated rotation, object classification.</br>
 
 <br>Input 3D PointCloud. Using SparseConvNet to generate 3D features.</br>
-<brCrop 3D features, within the estimated area based on the guidance of 2D result, augmenting 3D features with correspondence 2D features.\>
+
+<br>Crop 3D features, within the estimated area based on the guidance of 2D result, augmenting 3D features with correspondence 2D features.</br>
+
 <br>Refine the 3D BBox with 3D features.</br>
 
 ## Some helpful sources
